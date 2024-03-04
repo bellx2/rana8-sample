@@ -1,0 +1,15 @@
+{
+  "version": "1.0.109",
+  "name": "hono-bun",
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "bun-types": "latest"
+  },
+  "dependencies": {
+    "hono": "^2.2.5"
+  },
+  "scripts": {
+    "start": "bun run src/index.ts"
+  },
+  "module": "src/index.js"
+}
